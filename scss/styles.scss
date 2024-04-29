@@ -1,0 +1,12 @@
+.navbar{
+    
+    .btn-outline-light:hover{
+        color: var(--bs-dark);
+    }
+    .navbar-brand{
+        img{
+            height: 32px;
+            width: 100%;
+        }
+    }
+}
