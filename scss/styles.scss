@@ -13,4 +13,21 @@
 .header{
     background: url(../images/header-background.jpg);
     background-size: cover;
+    position: relative;
+    .hero {
+        padding-bottom: 70px;
+    }
+    svg{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media (max-width: 1000px){
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
+    }
+    .hero .text-container {
+        text-align: center;
+    }
 }
