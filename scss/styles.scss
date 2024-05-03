@@ -1,5 +1,5 @@
 .navbar{
-    
+    transition: all .5s ease-in-out;
     .btn-outline-light:hover{
         color: var(--bs-dark);
     }
